@@ -13,10 +13,9 @@ body{
     --color-blue: #0061FF;
 }
 
-/*.debug{
+.debug{
     border: 1px solid red;
 }
-*/
 
 ul{
     list-style: none;
@@ -106,6 +105,10 @@ header{
     padding-top: 100px;
 }
 
+.margin-T100{
+    margin-top: 100px;
+}
+
 section>h1{
     font-size: 4rem;
     margin-bottom: 15px;
@@ -133,4 +136,8 @@ section>h1{
     padding: 10px 10px;
     border: none;
     cursor: pointer;
+}
+
+.inline-block{
+    display: inline-block;
 }
