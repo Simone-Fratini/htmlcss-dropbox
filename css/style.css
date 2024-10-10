@@ -15,7 +15,7 @@ body{
 
 
 .text-big{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .debug{
@@ -247,3 +247,4 @@ hr{
     color: black;
     border: 1px solid black;
 }
+
