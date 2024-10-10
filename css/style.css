@@ -13,6 +13,11 @@ body{
     --color-blue: #0061FF;
 }
 
+
+.text-big{
+    font-size: 3rem;
+}
+
 .debug{
     border: 1px solid red;
 }
@@ -81,7 +86,7 @@ header{
 }
 
 .container-small{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -93,12 +98,31 @@ header{
     padding-left: 20px;
 }
 
+.padding-T5{
+    padding-top: 5px;
+}
+
+.padding-T15{
+    padding-top: 15px;
+}
 .padding-T20{
     padding-top: 20px;
 }
 
 .padding-T50{
     padding-top: 50px;
+}
+
+.margin-T50{
+    margin-top: 50px;
+}
+
+.padding-T30{
+    padding-top: 30px;
+}
+
+.padding-B30{
+    padding-bottom: 30px;
 }
 
 .padding-T100{
@@ -140,4 +164,53 @@ section>h1{
 
 .inline-block{
     display: inline-block;
+}
+
+.border-col{
+    border: 1px solid #afafaf;
+    width: calc((100% - 30px)/3);
+}
+
+.border{
+    border: 1px solid #afafaf;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #afafaf;
+}
+    
+
+
+
+.plan-header{
+    border-bottom: 1px solid #afafaf;
+    text-align: center;
+    line-height: 50px;
+}
+
+.box-title-height, .plan-header{
+    height: 50px;
+}
+
+.column-content-size{
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr{
+    width: 30%;
+    color: #afafaf;
+}
+
+.cl-blue{
+    color: var(--color-blue);
+}
+
+.column-content-size > div:has(a.button-blue){
+    display: block;
+    width: 100%;
+}
+
+.width100{
+    width: 100%;
 }
