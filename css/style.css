@@ -11,6 +11,51 @@ body{
 :root{
     --light-blue: #B4D0E7;
     --color-blue: #0061FF;
+    --color-green: #A2D39B;
+    --color-bordeau:#61082B;
+    --color-water-blue:#0093CE;
+    --color-scarlet:#D5001F;
+    --color-cloudy-blue:#B4D0E7;
+    --color-dark-blue:#0D2481;
+    --color-gold:#FFD830;
+    --color-red:#FF1C1C;
+    --color-gray: #F5F5F5;
+}
+
+.bg-gray{
+    background-color: var(--color-gray);    
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-bordeau {
+    background-color: var(--color-bordeau);
+}
+
+.bg-water-blue {
+    background-color: var(--color-water-blue);
+}
+
+.bg-scarlet {
+    background-color: var(--color-scarlet);
+}
+
+.bg-cloudy-blue {
+    background-color: var(--color-cloudy-blue);
+}
+
+.bg-dark-blue {
+    background-color: var(--color-dark-blue);
+}
+
+.bg-gold {
+    background-color: var(--color-gold);
+}
+
+.bg-red {
+    background-color: var(--color-red);
 }
 
 
@@ -55,6 +100,9 @@ h1{
 }
 .align-center{
     align-items: center;
+}
+.justify-center{
+    justify-content: center;
 }
 
 .d-column{
@@ -248,3 +296,20 @@ hr{
     border: 1px solid black;
 }
 
+.aspect-ratio-1{
+    aspect-ratio: 1 / 1;
+    width: 320px;
+}
+
+.client-logo{
+    width: 60%;
+    height: auto;
+}
+
+.cl-invert{
+    filter: invert(100%);
+}
+
+.logo-column{
+    width: calc(100%/3);
+}
