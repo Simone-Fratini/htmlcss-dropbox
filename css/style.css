@@ -34,6 +34,10 @@ body{
     background-color: var(--color-bordeau);
 }
 
+.cl-bordeau {
+    color: var(--color-bordeau);
+}
+
 .bg-water-blue {
     background-color: var(--color-water-blue);
 }
@@ -58,9 +62,17 @@ body{
     background-color: var(--color-red);
 }
 
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+
 
 .text-big{
     font-size: 2.8rem;
+}
+
+.text-medium{
+    font-size: 1.8rem;
 }
 
 .debug{
@@ -103,6 +115,10 @@ h1{
 }
 .justify-center{
     justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
 }
 
 .d-column{
@@ -169,6 +185,10 @@ header{
     margin-top: 50px;
 }
 
+.margin-T20{
+    margin-top: 20px;
+}
+
 .padding-T30{
     padding-top: 30px;
 }
@@ -183,6 +203,10 @@ header{
 
 .padding-T100{
     padding-top: 100px;
+}
+
+.padding-B100{
+    padding-bottom: 100px;
 }
 
 .margin-T100{
@@ -312,4 +336,23 @@ hr{
 
 .logo-column{
     width: calc(100%/3);
+}
+
+.img-partner-section{
+    width: 50%;
+    height: auto;
+}
+
+.width60{
+    width: 60%;
+}
+
+.width40{
+    width: 40%;
+}
+
+.prova-gratuita{
+    background-color: white;
+    padding: 10px 10px;
+
 }
