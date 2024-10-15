@@ -22,6 +22,14 @@ body{
     --color-gray: #F5F5F5;
 }
 
+.bg-black{
+    background-color: black;    
+}
+
+.cl-white{
+    color: white;
+}
+
 .bg-gray{
     background-color: var(--color-gray);    
 }
@@ -258,7 +266,10 @@ section>h1{
 .border-bottom{
     border-bottom: 1px solid #afafaf;
 }
-    
+
+.border-top{
+    border-top: 1px solid #afafaf;
+}
 
 
 
@@ -345,6 +356,10 @@ hr{
 
 .width60{
     width: 60%;
+}
+
+.width90{
+    width: 90%;
 }
 
 .width40{
